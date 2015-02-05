@@ -19,43 +19,43 @@ tmp = '/tmp/es_stats.tmp'              # temp file to use
 
 # keys for health page
 traps1 = {                             
-  "status",
-  "active_primary_shards",
-  "active_shards",
-  "initializing_shards",
-  "relocating_shards",
-  "unassigned_shards"
+  "status":None,
+  "active_primary_shards":None,
+  "active_shards":None,
+  "initializing_shards":None,
+  "relocating_shards":None,
+  "unassigned_shards":None
 }
 
 # keys for cluster stats page
 traps2 = {                             
-  "indices.docs.count",
-  "indices.docs.deleted",
-  "indices.flush.total",
-  "indices.flush.total_time_in_millis",
-  "indices.get.exists_time_in_millis",
-  "indices.get.exists_total",
-  "indices.get.missing_time_in_millis",
-  "indices.get.missing_total",
-  "indices.indexing.delete_time_in_millis",
-  "indices.indexing.delete_total",
-  "indices.indexing.index_time_in_millis",
-  "indices.indexing.index_total",
-  "indices.merges.total",
-  "indices.merges.total_time_in_millis",
-  "indices.refresh.total",
-  "indices.refresh.total_time_in_millis",
-  "indices.search.fetch_time_in_millis",
-  "indices.search.fetch_total",
-  "indices.search.query_time_in_millis",
-  "indices.search.query_total",
-  "indices.store.throttle_time_in_millis",
-  "indices.warmer.total",
-  "indices.warmer.total_time_in_millis",
-  "jvm.mem.heap_committed_in_bytes",
-  "jvm.mem.heap_used_in_bytes",
-  "os.mem.actual_free_in_bytes",
-  "os.mem.actual_used_in_bytes"
+  "indices.docs.count":None,
+  "indices.docs.deleted":None,
+  "indices.flush.total":None,
+  "indices.flush.total_time_in_millis":None,
+  "indices.get.exists_time_in_millis":None,
+  "indices.get.exists_total":None,
+  "indices.get.missing_time_in_millis":None,
+  "indices.get.missing_total":None,
+  "indices.indexing.delete_time_in_millis":None,
+  "indices.indexing.delete_total":None,
+  "indices.indexing.index_time_in_millis":None,
+  "indices.indexing.index_total":None,
+  "indices.merges.total":None,
+  "indices.merges.total_time_in_millis":None,
+  "indices.refresh.total":None,
+  "indices.refresh.total_time_in_millis":None,
+  "indices.search.fetch_time_in_millis":None,
+  "indices.search.fetch_total":None,
+  "indices.search.query_time_in_millis":None,
+  "indices.search.query_total":None,
+  "indices.store.throttle_time_in_millis":None,
+  "indices.warmer.total":None,
+  "indices.warmer.total_time_in_millis":None,
+  "jvm.mem.heap_committed_in_bytes":None,
+  "jvm.mem.heap_used_in_bytes":None,
+  "os.mem.actual_free_in_bytes":None,
+  "os.mem.actual_used_in_bytes":None
 }
 
 
